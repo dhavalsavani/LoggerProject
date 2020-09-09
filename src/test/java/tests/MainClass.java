@@ -1,4 +1,4 @@
-package scripts;
+package tests;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -8,7 +8,7 @@ import core.Log4jMain;
 
 public class MainClass {
 	
-	static Logger log = LogManager.getLogger();
+	private static Logger log = LogManager.getLogger();
 	
 	public static void main(String[] args) {
 		log.info("In Main method");

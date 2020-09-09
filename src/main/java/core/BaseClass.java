@@ -5,7 +5,7 @@ import org.apache.logging.log4j.Logger;
 
 public abstract class BaseClass {
 	
-	static Logger log = LogManager.getLogger();
+	private static Logger log = LogManager.getLogger();
 	
 	public abstract void execute();
 	
